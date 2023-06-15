@@ -1,0 +1,23 @@
+{
+  "name": "Virtual Assistant extension",
+  "manifest_version": 3,
+  "version": "1.0",
+  "action":{
+    "default_popup": "Formular.html",
+    "default_title":"Virtual Assistant extension"
+  },
+  "description": "A browser extension which acts like a virtual assistant(like Cortana, Siri, etc) being able to receive commands at browser level",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "webNavigation",
+    "tabs",
+    "cookies"
+  ],
+  "host_permissions": ["<all_urls>"]
+}
