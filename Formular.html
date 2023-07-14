@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style/Formular.css">
+  <title>Virtual Assistent</title>
+</head>
+
+
+<body>
+  <div>
+    <select id="history" size="1"></select>
+  </div>
+
+    <div class="autocomplete" style="width:300px;">
+      <input id="question_bar" type="text" name="question_bar" placeholder="Ask me something...">
+      
+      <button type="submit" id="send" class="send-button">Send</button>
+      <!--<button id="voice-search-btn">Voice Search</button>-->
+    </div>
+
+
+
+  <div>
+    <select  id="tabs" class="hd">
+      <option value="New Tab">New Tab</option>
+      <option value="This Tab">This Tab</option>
+    </select>
+  </div>
+
+  <div id="player">
+
+  </div>
+
+  <div> 
+    <p id="suggestions"></p>
+  </div>
+  <label>
+
+    <input type="checkbox"  id="check_read" name="read_answer" value=" Read answer out loud">
+    Read answer out loud
+  </label>
+
+  <div>
+    <p id="answer">Your answer will be shown here.</p>  
+  </div>
+
+
+<script src="play.js"></script>
+<script src="send_data.js"></script>
+<script src="data.js"></script>
+
+
+
+</body>
+</html>
+
